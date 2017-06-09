@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+<Style id="z1">
+<IconStyle><Icon><href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href></Icon></IconStyle>
+</Style>
+<Placemark><name>SSL</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.288767,34.019539</coordinates></Point>
+</Placemark>
+<Placemark><name>Home</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.288428,34.031132</coordinates></Point>
+</Placemark>
+<Placemark><name>OHE</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.289433,34.020475</coordinates></Point>
+</Placemark>
+<Placemark><name>SGM</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.289251,34.021194</coordinates></Point>
+</Placemark>
+<Placemark><name>VKC</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.284055,34.021073</coordinates></Point>
+</Placemark>
+<Placemark><name>Leavey</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.282823,34.021797</coordinates></Point>
+</Placemark>
+<Placemark><name>Ralphs</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.290987,34.031889</coordinates></Point>
+</Placemark>
+<Placemark><name>Manas</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.291786,34.028827</coordinates></Point>
+</Placemark>
+<Placemark><name>Coliseum</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.287859,34.013817</coordinates></Point>
+</Placemark>
+</Document></kml>

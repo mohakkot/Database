@@ -1,0 +1,12 @@
+A1 = LOAD 'DATA/para1.txt';
+A2 = LOAD 'DATA/para2.txt';
+A3 = LOAD 'DATA/para3.txt';
+A4 = LOAD 'DATA/para4.txt';
+A5 = LOAD 'DATA/para5.txt';
+A6 = LOAD 'DATA/para6.txt';
+A = UNION A1, A2, A4, A5, A6;
+B = FOREACH A GENERATE FLATTEN(TOKENIZE(REPLACE(LOWER((chararray)$0),'','|'), '|')) AS letter;
+C = FILTER B  BY letter != ' ';
+D = GROUP C BY letter;
+E = FOREACH D GENERATE COUNT(C.letter), group;
+STORE E INTO 'output/charcount';

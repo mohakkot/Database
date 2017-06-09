@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+<Style id="z1">
+<IconStyle><Icon><href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href></Icon></IconStyle>
+</Style>
+<Placemark><name>1</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28876,34.013817</coordinates></Point>
+</Placemark>
+<Placemark><name>2</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28282,34.021797</coordinates></Point>
+</Placemark>
+<Placemark><name>3</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28843,34.031132</coordinates></Point>
+</Placemark>
+<Placemark><name>4</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.29099,34.031889</coordinates></Point>
+</Placemark>
+<Placemark><name>5</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.29179,34.028827</coordinates></Point>
+</Placemark>
+<Placemark><name>6</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.28876,34.013817</coordinates></Point>
+</Placemark>
+<Placemark> 
+<altitudeMode>absolute</altitudeMode>
+<Polygon> <outerBoundaryIs>  <LinearRing> 
+  <coordinates>
+   -118.28786,34.013817 -118.28282,34.021797 -118.28843,34.031132 -118.29099,34.031889 -118.29179,34.028827 -118.28786,34.013817
+  </coordinates>
+ </LinearRing> </outerBoundaryIs> </Polygon>	
+ <Style> 
+  <LineStyle>  
+   <color>#ff0000ff</color>
+   <width>5</width>
+  </LineStyle>
+  <PolyStyle>
+   <color>e8ff9257</color>
+  </PolyStyle>
+ </Style>
+</Placemark>
+</Document></kml>
